@@ -13,6 +13,8 @@ spec:
       labels:
         app: python-app
     spec:
+      imagePullSecrets:
+        - name: dockerhub-secret
       containers:
       - name: python-app
         image: usmanfarooq/python-argocd-app:latest
