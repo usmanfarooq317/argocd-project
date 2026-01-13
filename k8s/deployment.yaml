@@ -19,4 +19,4 @@ spec:
       - name: python-app
         image: usmanfarooq317/python-argocd-app:latest
         ports:
-        - containerPort: 8000
+        - containerPort: 8001
